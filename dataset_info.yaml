@@ -1,0 +1,20 @@
+---
+name: LemGendizedAIHelperLemGend
+count: 65
+task: ai_helper
+category: Technical Documentation & AI Assistant Training
+canonical_format: jsonl
+original_sources:
+- Lemgendary Ai Documentation Hub
+- Rain Streaks Dataset
+- Ecosystem Architecture And Current State Manifest
+- Master Operations Manuals (Gui, Cli, Api)
+- Dataset Compiler And Environment Manager Whitepapers
+- Model Family Architecture Whitepapers
+- Canonical Glossary And Ai Helper Troubleshooting Knowledge Base
+- Curated Ai Lemgend Instruction And Validation Examples
+path: ..\LemGendaryDatasets\LemGendizedAIHelperLemGend
+source: LemGendizedAIHelperLemGend-manifold
+last_processed: '2026-10-16T17:00:00.000000+00:00'
+train_samples: 52
+val_samples: 13
