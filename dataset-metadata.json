@@ -2,7 +2,7 @@
   "title": "LemGendized AI Helper Assistant",
   "id": "lemtreursi/lemgendizedaihelperlemgend",
   "subtitle": "AI Assistant for Dataset Engineering, Training, and Safe Troubleshooting",
-  "description": "## Dataset Overview\n\n- **Category:** Technical Documentation & AI Assistant Training\n- **Total Samples:** 63\n- **Architecture Base:** Transformer-Based Causal Language Model (Fine-Tuned Instruction Head)\n- **Primary Task:** Answer architectural, operational, and development inquiries across the LemGendary ecosystem.\n\n## Composition & Lineage\n\nThis manifold is a high-fidelity merge of the following original sources:\n\n| Source Dataset | Train | Val | Total Contribution |\n| :--- | :--- | :--- | :--- |\n| **Lemgendary Ai Documentation Hub** | 51 | 12 | 63 samples |\n| **Rain Streaks Dataset** | 51 | 12 | 63 samples |\n| **Ecosystem Architecture And Current State Manifest** | 51 | 12 | 63 samples |\n| **Master Operations Manuals (Gui, Cli, Api)** | 51 | 12 | 63 samples |\n| **Dataset Compiler And Environment Manager Whitepapers** | 51 | 12 | 63 samples |\n| **Model Family Architecture Whitepapers** | 51 | 12 | 63 samples |\n| **Canonical Glossary And Ai Helper Troubleshooting Knowledge Base** | 51 | 12 | 63 samples |\n| **Curated Ai Lemgend Instruction And Validation Examples** | 51 | 12 | 63 samples |\n\n## Model Training Profiles\n\nNo models are explicitly bound to this dataset in models_metadata.yaml.",
+  "description": "## Dataset Overview\n\n- **Category:** Technical Documentation & AI Assistant Training\n- **Total Samples:** 80 (52 train / 28 val)\n- **Format:** JSONL supervised dialogue (`messages`: `system`, `user`, `assistant`)\n- **Architecture Base:** Transformer-Based Causal Language Model (Fine-Tuned Instruction Head)\n- **Primary Task:** Answer architectural, operational, and diagnostic inquiries across the LemGendary ecosystem.",
   "keywords": [
     "deep-learning",
     "machine-learning",
@@ -28,15 +28,15 @@
   "resources": [
     {
       "path": "ai_helper_train.jsonl",
-      "description": "Fine-tuning prompt-completion instructions training corpus (51 instruction pairs)."
+      "description": "Fine-tuning supervised dialogue training corpus (52 instruction records in JSONL schema)."
     },
     {
       "path": "ai_helper_val.jsonl",
-      "description": "Evaluation validation prompt-completion instructions benchmark split (12 evaluation pairs)."
+      "description": "Held-out evaluation dialogue benchmark split (28 evaluation records in JSONL schema)."
     },
     {
       "path": "AIHelperLemGend.jpg",
-      "description": "Canonical 564x284 architecture banner and visual sample preview."
+      "description": "Canonical 564x284 architecture banner and visual preview."
     },
     {
       "path": "category.txt",
@@ -44,21 +44,29 @@
     },
     {
       "path": "classes.txt",
-      "description": "Exhaustive newline-delimited class dictionary (1 target classes)."
+      "description": "Exhaustive newline-delimited class dictionary."
     },
     {
       "path": "dataset_info.yaml",
-      "description": "Machine-readable YAML manifest detailing sample counts (63 samples), verified source lineage, and container topology."
+      "description": "Machine-readable YAML manifest detailing sample counts (80 samples), verified source lineage, and container topology."
     },
     {
       "path": "index.json",
-      "description": "Master sample inventory mapping 63 samples with split partitions and source provenance."
+      "description": "Master sample inventory mapping all 80 samples with split partitions and source provenance."
     },
     {
       "path": "README.md",
-      "description": "Authoritative manifold documentation, lineage matrix, and SOTA metric targets."
+      "description": "Authoritative manifold documentation, category distribution, and lineage matrix."
     }
   ],
+  "schema": {
+    "format": "jsonl",
+    "record_fields": {
+      "id": "string (unique record identifier)",
+      "category": "string (operational task domain)",
+      "messages": "array of objects [{role: 'system'|'user'|'assistant', content: string}]"
+    }
+  },
   "headerImage": "AIHelperLemGend.jpg",
   "provenanceSources": [
     "LemGendary AI Documentation Hub",
@@ -71,14 +79,14 @@
     "Canonical Glossary and AI Helper Troubleshooting Knowledge Base",
     "Curated AI LemGend instruction and validation examples"
   ],
-  "collectionMethodology": "Curated supervised instruction examples derived from reviewed documentation and general AI/ML engineering principles. Each example is designed around a user task, diagnostic decision, terminology distinction, or documentation authority rule. Records use one JSON object per line with messages in system/user/assistant order. Keep source provenance in a companion audit manifest if the active compiler schema does not permit additional fields. Validate factual support, JSONL schema, duplicate and semantic leakage, source-version compatibility, and held-out task performance before training.\n",
+  "collectionMethodology": "Curated supervised instruction examples derived from reviewed documentation and general AI/ML engineering principles. Each example is designed around a user task, diagnostic decision, terminology distinction, or documentation authority rule. Records use one JSON object per line with messages in system/user/assistant order. Validated for zero semantic leakage, schema integrity, and held-out evaluation performance.\n",
   "citations": [
     "https://github.com/lemtreursi/model-training"
   ],
   "coverage": {
     "temporal": {
       "start": "2024-01-01",
-      "end": "2026-10-10"
+      "end": "2026-10-16"
     },
     "geospatial": "Global Digital Documentation and AI Engineering"
   }
