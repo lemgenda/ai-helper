@@ -5,26 +5,26 @@
 ## Dataset Overview
 
 - **Category:** Technical Documentation & AI Assistant Training
-- **Total Samples:** 80 (52 train / 28 val)
+- **Total Samples:** 120 (80 train / 40 val)
 - **Architecture Base:** Transformer-Based Causal Language Model (Fine-Tuned Instruction Head)
 - **Primary Task:** Answer architectural, operational, and development inquiries across the LemGendary ecosystem.
 - **Format:** Standard JSONL supervised dialogue (`messages`: `system`, `user`, `assistant`).
 
 ## Task Category Distribution & Provenance Breakdown
 
-This manifold is derived directly from the verified **LemGendary AI Documentation Hub** (release `v16.9.26-STABLE`):
+This manifold is derived directly from the verified **LemGendary AI Documentation Hub** (release `v16.9.27-STABLE`):
 
 | Task Category | Train | Val | Total Contribution |
 | :--- | :--- | :--- | :--- |
-| **`api_procedure`** | 5 | 2 | 7 samples |
-| **`cli_procedure`** | 5 | 3 | 8 samples |
-| **`cross_document_pipeline`** | 15 | 7 | 22 samples |
-| **`gui_procedure`** | 5 | 2 | 7 samples |
-| **`model_selection`** | 5 | 3 | 8 samples |
-| **`terminology_and_invariants`** | 5 | 2 | 7 samples |
-| **`troubleshooting_diagnostics`** | 7 | 6 | 13 samples |
-| **`unsupported_and_negative`** | 5 | 3 | 8 samples |
-| **Total Corpus** | **52** | **28** | **80 samples** |
+| **`api_procedure`** | 7 | 3 | 10 samples |
+| **`cli_procedure`** | 7 | 4 | 11 samples |
+| **`cross_document_pipeline`** | 20 | 9 | 29 samples |
+| **`gui_procedure`** | 7 | 3 | 10 samples |
+| **`model_selection`** | 9 | 6 | 15 samples |
+| **`terminology_and_invariants`** | 10 | 3 | 13 samples |
+| **`troubleshooting_diagnostics`** | 12 | 8 | 20 samples |
+| **`unsupported_and_negative`** | 8 | 4 | 12 samples |
+| **Total Corpus** | **80** | **40** | **120 samples** |
 
 ## Source Document Lineage
 
@@ -56,8 +56,8 @@ Standardized directory layout for seamless integration into the **LemGendary Tra
 
 | File | Partition | Samples | Format |
 | :--- | :--- | :--- | :--- |
-| **`ai_helper_train.jsonl`** | Train | 52 | JSONL (OpenAI / ChatML message schema) |
-| **`ai_helper_val.jsonl`** | Val | 28 | JSONL (OpenAI / ChatML message schema) |
+| **`ai_helper_train.jsonl`** | Train | 80 | JSONL (OpenAI / ChatML message schema) |
+| **`ai_helper_val.jsonl`** | Val | 40 | JSONL (OpenAI / ChatML message schema) |
 
 ---
 

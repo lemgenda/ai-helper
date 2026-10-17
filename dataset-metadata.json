@@ -1,8 +1,8 @@
 {
   "title": "LemGendizedAIHelperLemGend",
   "id": "lemtreursi/lemgendizedaihelperlemgend",
-  "subtitle": "Authoritative Fine-Tuning Corpus for LemGendary AI Studio Assistant (80 Conversational Records)",
-  "description": "The LemGendizedAIHelperLemGend corpus is the official, verified fine-tuning and evaluation dataset for AI LemGend, the interactive assistant integrated into LemGendary AI Studio. Comprising 80 supervised instruction-tuning records (52 training pairs, 28 held-out validation pairs), this dataset formalizes procedural knowledge, operational parameters, diagnostic triage protocols, and architectural specifications across the entire LemGendary AI ecosystem.\n\n### Corpus Architecture\nEach record contains a multi-turn conversation format with structured system, user, and assistant turns, adhering to the 3-Stage Diagnostic Intake Protocol and epistemic confidence markers ([CONFIRMED], [PROBABLE], [ILLUSTRATIVE]).\n\n### Operational Scope\n- GUI Procedures: Step-by-step guidance for LemGendary AI Studio desktop application (Tauri v2 + React).\n- CLI Commands: Command-line reference for the lemtrain training engine.\n- API Integrations: OpenAPI endpoints, REST methods, and WebSocket streams across Ports 8000, 8100, and 8200.\n- Model Selection & SOTA Ladders: Architecture choices across all 22 supported model families.\n- Diagnostic Triage: Safe triage, telemetry analysis, and bounded remediation for training failure modes.",
+  "subtitle": "Authoritative Fine-Tuning Corpus for LemGendary AI Studio Assistant (120 Conversational Records)",
+  "description": "The LemGendizedAIHelperLemGend corpus is the official, verified fine-tuning and evaluation dataset for AI LemGend, the interactive assistant integrated into LemGendary AI Studio. Comprising 120 supervised instruction-tuning records (80 training pairs, 40 held-out validation pairs), this dataset formalizes procedural knowledge, operational parameters, diagnostic triage protocols, and architectural specifications across the entire LemGendary AI ecosystem.\n\n### Corpus Architecture\nEach record contains a multi-turn conversation format with structured system, user, and assistant turns, adhering to the 3-Stage Diagnostic Intake Protocol and epistemic confidence markers ([CONFIRMED], [PROBABLE], [ILLUSTRATIVE]).\n\n### Operational Scope\n- GUI Procedures: Step-by-step guidance for LemGendary AI Studio desktop application (Tauri v2 + React).\n- CLI Commands: Command-line reference for the lemtrain training engine.\n- API Integrations: OpenAPI endpoints, REST methods, and WebSocket streams across Ports 8000, 8100, and 8200.\n- Model Selection & SOTA Ladders: Architecture choices across all 22 supported model families.\n- Diagnostic Triage: Safe triage, telemetry analysis, and bounded remediation for training failure modes.",
   "isPrivate": false,
   "licenses": [
     {
@@ -12,36 +12,35 @@
   "keywords": [
     "ai-assistant",
     "instruction-tuning",
-    "lemgendary-ai",
     "pytorch",
-    "model-training",
-    "synthetic-data",
-    "vision-restoration",
-    "quant-trading",
     "deep-learning",
-    "studio-copilot"
+    "synthetic-data"
   ],
   "collaborators": [],
   "data": [
     {
       "path": "ai_helper_train.jsonl",
-      "description": "Supervised instruction tuning training set containing 52 conversational records with record-level provenance."
+      "description": "Supervised instruction tuning training set containing 80 conversational records with record-level provenance."
     },
     {
       "path": "ai_helper_val.jsonl",
-      "description": "Held-out evaluation benchmark containing 28 conversational records covering diagnostics, procedures, and unsupported refusal edge cases."
+      "description": "Held-out evaluation benchmark containing 40 conversational records covering diagnostics, procedures, and unsupported refusal edge cases."
     },
     {
       "path": "classes.txt",
-      "description": "Exhaustive newline-delimited class dictionary."
+      "description": "Top-level task classification descriptor (ai_helper)."
+    },
+    {
+      "path": "category.txt",
+      "description": "Operational domain categorization label."
     },
     {
       "path": "dataset_info.yaml",
-      "description": "Machine-readable YAML manifest detailing sample counts (80 samples), verified source lineage, and container topology."
+      "description": "Machine-readable YAML manifest detailing sample counts (120 samples), verified source lineage, and container topology."
     },
     {
       "path": "index.json",
-      "description": "Master sample inventory mapping all 80 samples with split partitions and record-level source provenance."
+      "description": "Master sample inventory mapping all 120 samples with split partitions and record-level source provenance."
     },
     {
       "path": "README.md",
