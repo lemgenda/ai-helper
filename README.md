@@ -5,26 +5,26 @@
 ## Dataset Overview
 
 - **Category:** Technical Documentation & AI Assistant Training
-- **Total Samples:** 120 (80 train / 40 val)
+- **Total Samples:** 157 (125 train / 32 val)
 - **Architecture Base:** Transformer-Based Causal Language Model (Fine-Tuned Instruction Head)
 - **Primary Task:** Answer architectural, operational, and development inquiries across the LemGendary ecosystem.
 - **Format:** Standard JSONL supervised dialogue (`messages`: `system`, `user`, `assistant`).
 
 ## Task Category Distribution & Provenance Breakdown
 
-This manifold is derived directly from the verified **LemGendary AI Documentation Hub** (release `v16.9.27-STABLE`):
+This manifold is derived directly from the verified **LemGendary AI Documentation Hub** (release `v16.9.28-STABLE`):
 
 | Task Category | Train | Val | Total Contribution |
 | :--- | :--- | :--- | :--- |
-| **`api_procedure`** | 7 | 3 | 10 samples |
-| **`cli_procedure`** | 7 | 4 | 11 samples |
-| **`cross_document_pipeline`** | 20 | 9 | 29 samples |
-| **`gui_procedure`** | 7 | 3 | 10 samples |
-| **`model_selection`** | 9 | 6 | 15 samples |
-| **`terminology_and_invariants`** | 10 | 3 | 13 samples |
-| **`troubleshooting_diagnostics`** | 12 | 8 | 20 samples |
-| **`unsupported_and_negative`** | 8 | 4 | 12 samples |
-| **Total Corpus** | **80** | **40** | **120 samples** |
+| **`api_procedure`** | 8 | 2 | 10 samples |
+| **`cli_procedure`** | 8 | 2 | 10 samples |
+| **`cross_document_pipeline`** | 34 | 8 | 42 samples |
+| **`gui_procedure`** | 12 | 3 | 15 samples |
+| **`model_selection`** | 14 | 4 | 18 samples |
+| **`terminology_and_invariants`** | 18 | 5 | 23 samples |
+| **`troubleshooting_diagnostics`** | 23 | 6 | 29 samples |
+| **`unsupported_and_negative`** | 8 | 2 | 10 samples |
+| **Total Corpus** | **125** | **32** | **157 samples** |
 
 ## Source Document Lineage
 
@@ -42,22 +42,22 @@ Every technical answer is strictly traceable to authoritative ecosystem document
 
 Standardized directory layout for seamless integration into the **LemGendary Training Suite**:
 
-- **`ai_helper_train.jsonl`**: Supervised instruction training split (52 dialogue records).
-- **`ai_helper_val.jsonl`**: Held-out evaluation benchmark split (28 dialogue records).
+- **`ai_helper_train.jsonl`**: Supervised instruction training split (125 dialogue records).
+- **`ai_helper_val.jsonl`**: Held-out evaluation benchmark split (32 dialogue records).
 - **`AIHelperLemGend.jpg`**: Visual preview and architecture banner.
 - **`category.txt`**: Top-level categorization tag (`Technical Documentation & AI Assistant Training`).
 - **`classes.txt`**: Target classification domains.
 - **`dataset-metadata.json`**: Kaggle frictionless metadata manifest and JSONL conversation schema specification.
 - **`dataset_info.yaml`**: Machine-readable manifest for automated PyTorch dataset loaders.
-- **`index.json`**: Master sample inventory mapping all 80 records.
+- **`index.json`**: Master sample inventory mapping all 157 records.
 - **`README.md`**: Authoritative manifold documentation and category distribution.
 
 ## Physical Data Manifest
 
 | File | Partition | Samples | Format |
 | :--- | :--- | :--- | :--- |
-| **`ai_helper_train.jsonl`** | Train | 80 | JSONL (OpenAI / ChatML message schema) |
-| **`ai_helper_val.jsonl`** | Val | 40 | JSONL (OpenAI / ChatML message schema) |
+| **`ai_helper_train.jsonl`** | Train | 125 | JSONL (OpenAI / ChatML message schema) |
+| **`ai_helper_val.jsonl`** | Val | 32 | JSONL (OpenAI / ChatML message schema) |
 
 ---
 

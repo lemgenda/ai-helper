@@ -1,5 +1,6 @@
+---
 name: LemGendizedAIHelperLemGend
-count: 120
+count: 157
 task: ai_helper
 category: Technical Documentation & AI Assistant Training
 canonical_format: jsonl
@@ -11,8 +12,8 @@ original_sources:
 - Model Family Architecture Whitepapers
 - Canonical Glossary And AI Helper Troubleshooting Knowledge Base
 - Curated AI LemGend Instruction And Validation Examples
-path: ../LemGendaryDatasets/LemGendizedAIHelperLemGend
+path: ..\LemGendaryDatasets\LemGendizedAIHelperLemGend
 source: LemGendizedAIHelperLemGend-manifold
-last_processed: '2026-10-17T21:00:00.000000+00:00'
-train_samples: 80
-val_samples: 40
+last_processed: '2026-10-16T17:30:00.000000+00:00'
+train_samples: 125
+val_samples: 32
