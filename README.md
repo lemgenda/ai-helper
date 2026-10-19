@@ -12,7 +12,7 @@
 
 ## Task Category Distribution & Provenance Breakdown
 
-This manifold is derived directly from the verified **LemGendary AI Documentation Hub** (release `v16.9.28-STABLE`):
+This manifold is derived directly from the verified **LemGendary AI Documentation Hub** (release `v16.9.27-STABLE`):
 
 | Task Category | Train | Val | Total Contribution |
 | :--- | :--- | :--- | :--- |
