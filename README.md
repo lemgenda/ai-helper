@@ -19,7 +19,6 @@ This manifold is a high-fidelity merge of the following original sources:
 | Source Dataset | Train | Val | Total Contribution |
 | :--- | :--- | :--- | :--- |
 | **Lemgendary Ai Documentation Hub** | 923 | 227 | 1,150 samples |
-| **Rain Streaks Dataset** | 923 | 227 | 1,150 samples |
 | **Ecosystem Architecture And Current St...** | 923 | 227 | 1,150 samples |
 | **Master Operations Manuals** | 923 | 227 | 1,150 samples |
 | **Dataset Compiler And Environment Mana...** | 923 | 227 | 1,150 samples |
@@ -45,7 +44,7 @@ Training Suite**.
 - **`category.txt`**: Top-level categorization tag.
 - **`classes.txt`**: Class labels mapping.
 - **`dataset-metadata.json`**: Kaggle Frictionless metadata manifest, licensing,
-  and schema column definitions for Parquet feature tensors.
+  and schema column definitions.
 - **`dataset_info.yaml`**: Manifest metadata for automated PyTorch loaders.
 - **`index.json`**: Compiled metadata index mapping all dataset samples.
 - **`README.md`**: This documentation file.
