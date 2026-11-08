@@ -1,0 +1,11 @@
+{
+  "dataset_name": "LemGendizedAIHelperLemGend",
+  "timestamp": "2026-11-07T14:14:13.367074+00:00",
+  "splits": {
+    "train": 1078,
+    "val": 226,
+    "test": 226
+  },
+  "total_records": 1530,
+  "status": "APPROVED_PRODUCTION_BUILD"
+}

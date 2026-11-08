@@ -1,0 +1,20 @@
+{
+  "total_records_evaluated": 1530,
+  "categories": {
+    "troubleshooting_diagnostic": 24,
+    "general_knowledge": 497,
+    "model_pipeline": 787,
+    "terminology_concept": 35,
+    "api_procedure": 32,
+    "gui_procedure": 103,
+    "cli_command": 52
+  },
+  "authority_tiers": {
+    "tier_4_educational": 575,
+    "tier_1_manifest": 54,
+    "tier_3_whitepaper": 759,
+    "tier_2_operational_manual": 142
+  },
+  "critical_errors": 0,
+  "status": "PASSED_QUALITY_GATE"
+}

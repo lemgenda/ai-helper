@@ -1,0 +1,229 @@
+{
+  "dataset_name": "ai_helper",
+  "declared_sources": [
+    "LemGendary AI Documentation Hub",
+    "General AI Training Knowledge Reference",
+    "Ecosystem Architecture and Current State Manifest",
+    "Master Operations Manuals (GUI, CLI, API)",
+    "Dataset Compiler and Environment Manager Whitepapers",
+    "Training Suite and Training Pathology Documentation",
+    "Model-Family Architecture Whitepapers",
+    "Canonical Glossary and AI Helper Troubleshooting Knowledge Base",
+    "Curated AI LemGend instruction and validation examples"
+  ],
+  "active_documents": {
+    "AI_HELPER_TROUBLESHOOTING_KNOWLEDGE.md": {
+      "count": 22,
+      "authority_tier": "tier_4_educational"
+    },
+    "canonical_capabilities.yaml": {
+      "count": 24,
+      "authority_tier": "tier_1_manifest"
+    },
+    "ECOSYSTEM_ARCHITECTURE.md": {
+      "count": 14,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "GENERAL_AI_TRAINING_KNOWLEDGE.md": {
+      "count": 137,
+      "authority_tier": "tier_4_educational"
+    },
+    "GLOSSARY.md": {
+      "count": 35,
+      "authority_tier": "tier_4_educational"
+    },
+    "GUI_CONTROL_REGISTRY.md": {
+      "count": 20,
+      "authority_tier": "tier_4_educational"
+    },
+    "INVESTOR_STRATEGY_LEMGENDARY_2026.md": {
+      "count": 11,
+      "authority_tier": "tier_4_educational"
+    },
+    "LEMGENDARY_CURRENT_STATE.md": {
+      "count": 12,
+      "authority_tier": "tier_4_educational"
+    },
+    "MANUAL_AI_STUDIO_GUI.md": {
+      "count": 55,
+      "authority_tier": "tier_2_operational_manual"
+    },
+    "MANUAL_API.md": {
+      "count": 30,
+      "authority_tier": "tier_2_operational_manual"
+    },
+    "MANUAL_CLI.md": {
+      "count": 49,
+      "authority_tier": "tier_2_operational_manual"
+    },
+    "MANUALS_HUB.md": {
+      "count": 8,
+      "authority_tier": "tier_2_operational_manual"
+    },
+    "PAPER_AI_STUDIO_GUI.md": {
+      "count": 23,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_DATASET_COMPILER.md": {
+      "count": 65,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_DEGRADATION_ENGINE.md": {
+      "count": 15,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_DETECTION_MASTER.md": {
+      "count": 7,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_ENV_MANAGER.md": {
+      "count": 20,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_FOREX_PREDICTOR.md": {
+      "count": 33,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_FOUNDATION_MODELS_MASTER.md": {
+      "count": 9,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_LEMGENDARY_CODEFORMER.md": {
+      "count": 11,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_LEMGENDARY_DETECTION_CLASSIFICATION.md": {
+      "count": 10,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_LEMGENDARY_DIFFUSION.md": {
+      "count": 8,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_LEMGENDARY_FACE_SUITE.md": {
+      "count": 12,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_LEMGENDARY_FFANET.md": {
+      "count": 19,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_LEMGENDARY_FILM_RESTORER.md": {
+      "count": 11,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_LEMGENDARY_HYBRID.md": {
+      "count": 12,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_LEMGENDARY_IMAGE_TO_TEXT.md": {
+      "count": 7,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_LEMGENDARY_LLM.md": {
+      "count": 13,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_LEMGENDARY_MIRNET.md": {
+      "count": 22,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_LEMGENDARY_MPRNET.md": {
+      "count": 43,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_LEMGENDARY_MULTITASK.md": {
+      "count": 10,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_LEMGENDARY_NAFNET.md": {
+      "count": 45,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_LEMGENDARY_NIMA.md": {
+      "count": 76,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_LEMGENDARY_NSFW_CLASSIFIER.md": {
+      "count": 11,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_LEMGENDARY_PARSENET.md": {
+      "count": 11,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_LEMGENDARY_RESTORATION_SUITE.md": {
+      "count": 14,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_LEMGENDARY_RETINAFACE.md": {
+      "count": 11,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_LEMGENDARY_ULTRAZOOM.md": {
+      "count": 14,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_LEMGENDARY_UPN_V2.md": {
+      "count": 11,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_LEMGENDARY_YOLOV8N.md": {
+      "count": 16,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_NIMA_AUTHENTICITY.md": {
+      "count": 11,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_NIMA_EFFICIENTNET.md": {
+      "count": 11,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_NIMA_MASTER.md": {
+      "count": 7,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_NIMA_MOBILE.md": {
+      "count": 11,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_NIMA_PRO.md": {
+      "count": 11,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_NIMA_TECHNICAL.md": {
+      "count": 11,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_RESTORATION_MASTER.md": {
+      "count": 8,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_TRAINING_PATHOLOGY.md": {
+      "count": 57,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "PAPER_TRAINING_SUITE.md": {
+      "count": 59,
+      "authority_tier": "tier_3_whitepaper"
+    },
+    "README.md": {
+      "count": 296,
+      "authority_tier": "tier_4_educational"
+    },
+    "REVIEW_REPORT.md": {
+      "count": 29,
+      "authority_tier": "tier_4_educational"
+    },
+    "unified_models_v2.yaml": {
+      "count": 30,
+      "authority_tier": "tier_1_manifest"
+    },
+    "VERSIONING_POLICY.md": {
+      "count": 13,
+      "authority_tier": "tier_4_educational"
+    }
+  },
+  "total_documents": 53
+}

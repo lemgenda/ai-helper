@@ -6,7 +6,7 @@
 ## Dataset Overview
 
 - **Category:** Technical Documentation & AI Assistant Training
-- **Total Samples:** 1,150
+- **Total Samples:** 1,140
 - **Architecture Base:** Transformer-Based Causal Language Model (Fine-Tuned
   Instruction Head)
 - **Primary Task:** Answer architectural, operational, and development inquiries
@@ -18,13 +18,15 @@ This manifold is a high-fidelity merge of the following original sources:
 
 | Source Dataset | Train | Val | Total Contribution |
 | :--- | :--- | :--- | :--- |
-| **Lemgendary Ai Documentation Hub** | 923 | 227 | 1,150 samples |
-| **Ecosystem Architecture And Current St...** | 923 | 227 | 1,150 samples |
-| **Master Operations Manuals** | 923 | 227 | 1,150 samples |
-| **Dataset Compiler And Environment Mana...** | 923 | 227 | 1,150 samples |
-| **Model Family Architecture Whitepapers** | 923 | 227 | 1,150 samples |
-| **Canonical Glossary And Ai Helper Trou...** | 923 | 227 | 1,150 samples |
-| **Curated Ai Lemgend Instruction And Va...** | 923 | 227 | 1,150 samples |
+| **LemGendary AI Documentation Hub** | 804 | 168 | 1,140 samples |
+| **General AI Training Knowledge Ref...** | 804 | 168 | 1,140 samples |
+| **Ecosystem Architecture and Curren...** | 804 | 168 | 1,140 samples |
+| **Master Operations Manuals** | 804 | 168 | 1,140 samples |
+| **Dataset Compiler and Environment...** | 804 | 168 | 1,140 samples |
+| **Training Suite and Training Patho...** | 804 | 168 | 1,140 samples |
+| **Model-Family Architecture Whitepa...** | 804 | 168 | 1,140 samples |
+| **Canonical Glossary and AI Helper...** | 804 | 168 | 1,140 samples |
+| **Curated AI LemGend instruction an...** | 804 | 168 | 1,140 samples |
 
 ## Model Training Profiles
 
@@ -41,20 +43,24 @@ Training Suite**.
 - **`ai_helper_lemgend_kaggle_training.ipynb`**: Auto-generated Kaggle notebook
   for cloud training.
 - **`AIHelperLemGend.jpg`**: Dataset component.
+- **`build_manifest.json`**: Dataset component.
 - **`category.txt`**: Top-level categorization tag.
 - **`classes.txt`**: Class labels mapping.
 - **`dataset-metadata.json`**: Kaggle Frictionless metadata manifest, licensing,
   and schema column definitions.
 - **`dataset_info.yaml`**: Manifest metadata for automated PyTorch loaders.
 - **`index.json`**: Compiled metadata index mapping all dataset samples.
+- **`quality_report.json`**: Dataset component.
 - **`README.md`**: This documentation file.
+- **`rejected_records.jsonl`**: Dataset component.
+- **`source_manifest.json`**: Dataset component.
 
 ## Physical Data Manifest
 
 | Folder | Train | Val |
 | :--- | :--- | :--- |
-| **data/ai_helper_train.jsonl** | 7,384 | - |
-| **data/ai_helper_val.jsonl** | - | 1,816 |
+| **data/ai_helper_train.jsonl** | 7,236 | - |
+| **data/ai_helper_val.jsonl** | - | 1,512 |
 
 ---
 
