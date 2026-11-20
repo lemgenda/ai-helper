@@ -13,11 +13,11 @@
   ],
   "active_documents": {
     "AI_HELPER_TROUBLESHOOTING_KNOWLEDGE.md": {
-      "count": 22,
+      "count": 25,
       "authority_tier": "tier_4_educational"
     },
     "canonical_capabilities.yaml": {
-      "count": 24,
+      "count": 31,
       "authority_tier": "tier_1_manifest"
     },
     "ECOSYSTEM_ARCHITECTURE.md": {
@@ -25,71 +25,71 @@
       "authority_tier": "tier_3_whitepaper"
     },
     "GENERAL_AI_TRAINING_KNOWLEDGE.md": {
-      "count": 137,
+      "count": 188,
       "authority_tier": "tier_4_educational"
     },
     "GLOSSARY.md": {
-      "count": 35,
+      "count": 39,
       "authority_tier": "tier_4_educational"
     },
     "GUI_CONTROL_REGISTRY.md": {
-      "count": 20,
+      "count": 42,
       "authority_tier": "tier_4_educational"
     },
     "INVESTOR_STRATEGY_LEMGENDARY_2026.md": {
-      "count": 11,
+      "count": 14,
       "authority_tier": "tier_4_educational"
     },
     "LEMGENDARY_CURRENT_STATE.md": {
-      "count": 12,
+      "count": 18,
       "authority_tier": "tier_4_educational"
     },
     "MANUAL_AI_STUDIO_GUI.md": {
-      "count": 55,
+      "count": 139,
       "authority_tier": "tier_2_operational_manual"
     },
     "MANUAL_API.md": {
-      "count": 30,
+      "count": 103,
       "authority_tier": "tier_2_operational_manual"
     },
     "MANUAL_CLI.md": {
-      "count": 49,
+      "count": 104,
       "authority_tier": "tier_2_operational_manual"
     },
     "MANUALS_HUB.md": {
-      "count": 8,
+      "count": 14,
       "authority_tier": "tier_2_operational_manual"
     },
     "PAPER_AI_STUDIO_GUI.md": {
-      "count": 23,
+      "count": 31,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_DATASET_COMPILER.md": {
-      "count": 65,
+      "count": 123,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_DEGRADATION_ENGINE.md": {
-      "count": 15,
+      "count": 23,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_DETECTION_MASTER.md": {
-      "count": 7,
+      "count": 6,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_ENV_MANAGER.md": {
-      "count": 20,
+      "count": 38,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_FOREX_PREDICTOR.md": {
-      "count": 33,
+      "count": 59,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_FOUNDATION_MODELS_MASTER.md": {
-      "count": 9,
+      "count": 10,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_LEMGENDARY_CODEFORMER.md": {
-      "count": 11,
+      "count": 13,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_LEMGENDARY_DETECTION_CLASSIFICATION.md": {
@@ -97,15 +97,15 @@
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_LEMGENDARY_DIFFUSION.md": {
-      "count": 8,
+      "count": 10,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_LEMGENDARY_FACE_SUITE.md": {
-      "count": 12,
+      "count": 15,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_LEMGENDARY_FFANET.md": {
-      "count": 19,
+      "count": 18,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_LEMGENDARY_FILM_RESTORER.md": {
@@ -121,31 +121,31 @@
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_LEMGENDARY_LLM.md": {
-      "count": 13,
+      "count": 20,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_LEMGENDARY_MIRNET.md": {
-      "count": 22,
+      "count": 20,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_LEMGENDARY_MPRNET.md": {
-      "count": 43,
+      "count": 52,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_LEMGENDARY_MULTITASK.md": {
-      "count": 10,
+      "count": 12,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_LEMGENDARY_NAFNET.md": {
-      "count": 45,
+      "count": 21,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_LEMGENDARY_NIMA.md": {
-      "count": 76,
+      "count": 91,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_LEMGENDARY_NSFW_CLASSIFIER.md": {
-      "count": 11,
+      "count": 12,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_LEMGENDARY_PARSENET.md": {
@@ -153,15 +153,15 @@
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_LEMGENDARY_RESTORATION_SUITE.md": {
-      "count": 14,
+      "count": 16,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_LEMGENDARY_RETINAFACE.md": {
-      "count": 11,
+      "count": 13,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_LEMGENDARY_ULTRAZOOM.md": {
-      "count": 14,
+      "count": 15,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_LEMGENDARY_UPN_V2.md": {
@@ -169,7 +169,7 @@
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_LEMGENDARY_YOLOV8N.md": {
-      "count": 16,
+      "count": 23,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_NIMA_AUTHENTICITY.md": {
@@ -177,47 +177,47 @@
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_NIMA_EFFICIENTNET.md": {
-      "count": 11,
+      "count": 5,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_NIMA_MASTER.md": {
-      "count": 7,
+      "count": 6,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_NIMA_MOBILE.md": {
-      "count": 11,
+      "count": 2,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_NIMA_PRO.md": {
-      "count": 11,
+      "count": 3,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_NIMA_TECHNICAL.md": {
-      "count": 11,
+      "count": 5,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_RESTORATION_MASTER.md": {
-      "count": 8,
+      "count": 9,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_TRAINING_PATHOLOGY.md": {
-      "count": 57,
+      "count": 116,
       "authority_tier": "tier_3_whitepaper"
     },
     "PAPER_TRAINING_SUITE.md": {
-      "count": 59,
+      "count": 141,
       "authority_tier": "tier_3_whitepaper"
     },
     "README.md": {
-      "count": 296,
+      "count": 609,
       "authority_tier": "tier_4_educational"
     },
-    "REVIEW_REPORT.md": {
-      "count": 29,
-      "authority_tier": "tier_4_educational"
+    "unified_data.yaml": {
+      "count": 35,
+      "authority_tier": "tier_1_manifest"
     },
     "unified_models_v2.yaml": {
-      "count": 30,
+      "count": 43,
       "authority_tier": "tier_1_manifest"
     },
     "VERSIONING_POLICY.md": {

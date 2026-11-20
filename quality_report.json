@@ -1,19 +1,26 @@
 {
-  "total_records_evaluated": 1530,
+  "total_records_evaluated": 2432,
   "categories": {
-    "troubleshooting_diagnostic": 24,
-    "general_knowledge": 497,
-    "model_pipeline": 787,
-    "terminology_concept": 35,
-    "api_procedure": 32,
-    "gui_procedure": 103,
-    "cli_command": 52
+    "troubleshooting_diagnostic": 57,
+    "general_knowledge": 861,
+    "model_pipeline": 1038,
+    "terminology_concept": 42,
+    "api_procedure": 105,
+    "gui_procedure": 222,
+    "cli_command": 107
   },
   "authority_tiers": {
-    "tier_4_educational": 575,
-    "tier_1_manifest": 54,
-    "tier_3_whitepaper": 759,
-    "tier_2_operational_manual": 142
+    "tier_4_educational": 948,
+    "tier_1_manifest": 109,
+    "tier_3_whitepaper": 1015,
+    "tier_2_operational_manual": 360
+  },
+  "curation_stats": {
+    "input_count": 3378,
+    "quality_rejected": 0,
+    "dedup_rejected": 774,
+    "decontam_rejected": 172,
+    "output_count": 2432
   },
   "critical_errors": 0,
   "status": "PASSED_QUALITY_GATE"

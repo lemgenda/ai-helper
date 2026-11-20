@@ -1,11 +1,13 @@
 {
   "dataset_name": "LemGendizedAIHelperLemGend",
-  "timestamp": "2026-11-07T14:14:13.367074+00:00",
+  "timestamp": "2026-11-18T11:46:24.054997+00:00",
+  "seed": 42,
+  "manifest_sha256": "175e2ee61c93439cce83c565b601ea1459bb0c85508aa4717fa873d975e49f11",
   "splits": {
-    "train": 1078,
-    "val": 226,
-    "test": 226
+    "train": 1658,
+    "val": 387,
+    "test": 387
   },
-  "total_records": 1530,
+  "total_records": 2432,
   "status": "APPROVED_PRODUCTION_BUILD"
 }

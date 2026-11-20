@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "manifold_name": "LemGendizedAIHelperLemGend",
+  "compiler_version": "16.9.114",
+  "manifest_sha256": "08a9e87baf0644599acc035fee079e1df0a6ec8109a68cc38d5656a8d2297457",
+  "file_count": 16,
+  "total_bytes": 10856169,
+  "files": [
+    {
+      "path": "AIHelperLemGend.webp",
+      "size": 18192,
+      "sha256": "ac72bb0f2309ad5e46805fba58a57a42dbbf82a3786079c3343c2f2588fff1e6"
+    },
+    {
+      "path": "README.md",
+      "size": 2722,
+      "sha256": "b9333ed716e63ee7ad6581df87d2c8710e3f6ab00de6120a9cc2cfeb3181c96b"
+    },
+    {
+      "path": "ai_helper_lemgend_colab_training.ipynb",
+      "size": 58262,
+      "sha256": "c7eb982b6fdd156f1267f11855c18d2120ca4924d08ec38f736e891b717be795"
+    },
+    {
+      "path": "ai_helper_lemgend_kaggle_training.ipynb",
+      "size": 54281,
+      "sha256": "99daec5ecf03fc3e3c4f94e7f2e43e7cc5f15d8bc3e6dd8c8769b2287233349c"
+    },
+    {
+      "path": "build_manifest.json",
+      "size": 352,
+      "sha256": "ce60d377f9d6b90a9b6e2f3a8aa680b908f3ac981651192ec4d256c3a2fba632"
+    },
+    {
+      "path": "category.txt",
+      "size": 49,
+      "sha256": "9a1f18f8828b0783f422f283a4770b738900ce06e15642513aa7e11a1c687146"
+    },
+    {
+      "path": "classes.txt",
+      "size": 11,
+      "sha256": "add6accdfdbd658ea89ba0ae14574e8aa1605c70a51bd73228f889c7ac9d859d"
+    },
+    {
+      "path": "data/ai_helper_test.jsonl",
+      "size": 1055641,
+      "sha256": "2827e3b058f75bd69624af92e6c2f64944dd0dbf75dafa61d1bab29210610758"
+    },
+    {
+      "path": "data/ai_helper_train.jsonl",
+      "size": 4615680,
+      "sha256": "aea2cb17cd9f4482f0f359617196f409f97baf55de63289632346aeac4675143"
+    },
+    {
+      "path": "data/ai_helper_val.jsonl",
+      "size": 1086469,
+      "sha256": "de315c61983c25a4b9491b8a4519f0f0432266546d774d45d39e76ca87c99e04"
+    },
+    {
+      "path": "dataset-metadata.json",
+      "size": 5752,
+      "sha256": "fdebef69f7166ccf1eb68a38713b576a4ad69f6ae040fd53137cc6bcd4b17b5b"
+    },
+    {
+      "path": "dataset_info.yaml",
+      "size": 857,
+      "sha256": "0c4a5bc61baa7afb4a4ae91ec03cd47d8cf2ee428a92acd96b518f68d06eab9c"
+    },
+    {
+      "path": "index.json",
+      "size": 948726,
+      "sha256": "8af0af6f7047be6ed0fbb9b12409b43ac35d76cfafa7109cbb86caa339f7a9fc"
+    },
+    {
+      "path": "quality_report.json",
+      "size": 663,
+      "sha256": "eb7d5c2c1d0322530e60554edfc3b69e7172628af1f8baf368d760c697ad6385"
+    },
+    {
+      "path": "rejected_records.jsonl",
+      "size": 3002055,
+      "sha256": "0b018efc9b0f4b47d67584836a49b8c116e4a5c79a5fd725215fa7f91adfa553"
+    },
+    {
+      "path": "source_manifest.json",
+      "size": 6457,
+      "sha256": "7d37b737a31e3bf6cac0bbc8c7df7133c84f5b9fd9561a5d0eab1c3438ada402"
+    }
+  ]
+}
